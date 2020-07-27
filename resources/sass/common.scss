@@ -1,0 +1,33 @@
+@import 'variables';
+
+ul {
+    list-style: none;
+}
+
+.main-content {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+.main-content__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    border: 2px solid black;
+    background-color: black;
+    color: $grey;
+    padding: 5px 10px;
+}
+
+select {
+    border: 2px solid black;
+    background-color: black;
+    color: $grey;
+    padding: 5px 10px;
+}
+
+

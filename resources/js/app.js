@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes React and other helpers. It's a great starting point while
  * building robust, powerful web applications using React + Laravel.
  */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Main from "./components/Main";
 
 require('./bootstrap');
 
@@ -16,7 +15,10 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+require('./components/Main');
+
+
 ReactDOM.render(
-    <div>Stumblr</div>,
+    <Main/>,
     document.getElementById('root')
 );

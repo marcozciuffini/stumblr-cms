@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/stumblr.iml" filepath="$PROJECT_DIR$/.idea/stumblr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stumblrApp/.idea/stumblrApp.iml" filepath="$PROJECT_DIR$/../stumblrApp/.idea/stumblrApp.iml" />
     </modules>
   </component>
 </project>

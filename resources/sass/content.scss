@@ -1,0 +1,40 @@
+@import 'variables';
+
+.item-list {
+    padding: 15px;
+    width: 100%;
+}
+
+.item {
+    background-color: $grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.item__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.item__heading {
+    margin: 0;
+}
+
+.item__edit {
+    width: 100%;
+    padding: 15px;
+}
+
+.item__edit-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

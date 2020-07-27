@@ -1,3 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'login';
+@import 'common';
+@import 'header';
+@import 'content';
+@import 'pubs';
+@import 'towns';
+@import 'form';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
 body {
-    color: blue;
+    background-color: $yellow
 }

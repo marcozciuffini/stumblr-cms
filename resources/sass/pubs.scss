@@ -1,0 +1,40 @@
+@import 'variables';
+
+.pubs {
+    padding: 15px;
+    width: 100%;
+}
+
+.pub {
+    background-color: $grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.pub__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.pub__heading {
+    margin: 0;
+}
+
+.pub__edit {
+    width: 100%;
+    padding: 15px;
+}
+
+.pub__edit-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
